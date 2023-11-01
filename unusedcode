@@ -1,0 +1,21 @@
+ const [videoId, setVideoId] = useState('');
+
+  const getRandomSong = async () => {
+    try {
+      // Make a request to your API endpoint to get a random YouTube video
+      const response = await fetch('/api/randomSong');
+      if (response.ok) {
+        const data = await response.json();
+
+        if (data.id && data.id.videoId) {
+          setVideoId(data.id.videoId);
+        }
+      } else {
+        console.error('Error fetching random song:', data.error);
+      }
+    } catch (error) {
+      console.error('An error occurred while fetching the random song:', error);
+    }
+    console.log(videoId)
+  }
+  console.log(videoId)
