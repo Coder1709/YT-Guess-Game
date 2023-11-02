@@ -1,6 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
 
 First, run the development server:
 
@@ -14,23 +11,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# YT-Games
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Welcome to YT-Games, a thrilling web-based game where you put your musical knowledge to the test! Can you guess which song is more popular on YouTube? YT-Games is designed to challenge your musical instincts and bring out the competitive spirit in you. Get ready to embark on an exciting journey through the world of music and fun.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![YT-Games](your-image-url-here)
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+YT-Games comes packed with a range of exciting features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Guess the Most Popular Songs**: Put your intuition to the test and guess which song is more popular on YouTube.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Hover to Listen**: Hover over a song to listen to it. The perfect way to make an informed guess!
 
-## Deploy on Vercel
+- **Earn Points**: Rack up points for each correct guess. Compete with friends to see who can score the highest.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Getting started with YT-Games is a breeze:
+
+1. **Clone this Repository**:
+
+   ```bash
+   git clone <repository-url>
