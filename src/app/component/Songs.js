@@ -1,14 +1,18 @@
 import React from 'react'
 import { useAuth } from '../auth/auth';
-import { useState } from 'react';
+import { useState , useEffect} from 'react';
+import youtubeService from '../Api/youtubeService';
 
 
 const Songs = () => {
-    const {score ,setScore} = useAuth();
+    const {score ,setScore , setVideoData ,videoData } = useAuth();
 
 
     const incrementScore = () => {
         setScore(score + 1);
+
+
+        
     };
     return (
         <div className='p-3.5  '>

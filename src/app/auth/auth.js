@@ -4,8 +4,9 @@ const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   const [score, setScore] = useState(0);
+  const [videoData, setVideoData] = useState(null);
   return (
-    <AuthContext.Provider value={{ score, setScore }}>
+    <AuthContext.Provider value={{ score, setScore ,videoData,setVideoData }}>
       {children}
     </AuthContext.Provider>
   );
